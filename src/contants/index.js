@@ -110,43 +110,7 @@ export const myProjects = [
             },
         ],
     },
-    {
-        id: 4,
-        title: "C++ Game Engine",
-        description:
-            "A lightweight C++ game engine designed for 2D and 3D game development.",
-        subDescription: [
-            "Built a powerful rendering engine using OpenGL and C++.",
-            "Developed a physics engine with collision detection and particle effects.",
-            "Implemented a scripting system for easy game customization.",
-            "Optimized performance with multi-threading and efficient memory management.",
-        ],
-        href: "",
-        logo: "",
-        image: "/assets/projects/game-engine.jpg",
-        tags: [
-            {
-                id: 1,
-                name: "C++",
-                path: "/assets/logos/cplusplus.svg",
-            },
-            {
-                id: 2,
-                name: "C#",
-                path: "/assets/logos/csharp.svg",
-            },
-            {
-                id: 3,
-                name: "Git",
-                path: "/assets/logos/git.svg",
-            },
-            {
-                id: 4,
-                name: "Microsoft",
-                path: "/assets/logos/microsoft.svg",
-            },
-        ],
-    },
+
     {
         id: 5,
         title: "WordPress Custom Theme",
@@ -241,41 +205,74 @@ export const mySocials = [
     },
 ];
 
+// export const experiences = [
+//     {
+//         title: "Software Developer",
+//         job: "Security & Defense Projects",
+//         date: "2021-2023",
+//         contents: [
+//             "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
+//             "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+//             "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
+//             "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+//             "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+//         ],
+//     },
+//     {
+//         title: "Back-End Developer",
+//         job: "Car Manufacture",
+//         date: "2023-2024",
+//         contents: [
+//             "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+//             "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+//             "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+//             "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+//             "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+//         ],
+//     },
+//     {
+//         title: "Freelance Developer",
+//         job: "Self-Employed",
+//         date: "2025-Present",
+//         contents: [
+//             "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+//             "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+//         ],
+//     },
+// ];
+
 export const experiences = [
     {
-        title: "Software Developer",
-        job: "Security & Defense Projects",
-        date: "2021-2023",
+        title: "ICT and Maths Teacher & Computer Lab In-Charge",
+        job: "Education",
+        date: "June 2013 - Present",
         contents: [
-            "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-            "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-            "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-            "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-            "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-        ],
+            "Managed and maintained a computer lab, ensuring optimal functionality for educational purposes.",
+            "Developed and delivered ICT lessons, fostering foundational understanding of technology relevant to digital environments.",
+            "Guided students in practical computer skills, potentially including basic web concepts or software used in web development.",
+            "Troubleshot hardware and software issues, gaining practical experience in system maintenance.",
+            "Potentially introduced and managed online learning platforms or digital resources for teaching.",
+        ]
     },
     {
-        title: "Back-End Developer",
-        job: "Car Manufacture",
-        date: "2023-2024",
-        contents: [
-            "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-            "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-            "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-            "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-            "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-        ],
-    },
-    {
-        title: "Freelance Developer",
+        title: "Freelance Website Developer",
         job: "Self-Employed",
-        date: "2025-Present",
+        date: "August 2018 - Present",
         contents: [
-            "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-            "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-        ],
-    },
+            "Designed and developed websites for various clients, utilizing HTML, CSS, and JavaScript.",
+            "Implemented responsive web designs to ensure optimal viewing experiences across different devices.",
+            "Integrated back-end functionalities using technologies like PHP, Python, or Node.js (if applicable).",
+            "Managed website hosting, deployment, and maintenance.",
+            "Collaborated directly with clients to understand their needs and deliver tailored web solutions.",
+            "Built and integrated databases for dynamic website content (if applicable).",
+            "Utilized content management systems (CMS) like WordPress for efficient website management (if applicable).",
+            "Focused on user experience (UX) and user interface (UI) design principles to create engaging websites.",
+            "Employed version control systems like Git for collaborative development and code management.",
+            "Kept up-to-date with the latest web development trends and technologies.",
+        ]
+    }
 ];
+
 export const reviews = [
     {
         name: "Jack",
