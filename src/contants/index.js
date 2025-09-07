@@ -1,5 +1,40 @@
 export const myProjects = [
   {
+    id: 10,
+    title: "Job Listings",
+    description:
+      "A modern job listing platform built with Next.js, TailwindCSS, and MongoDB that enables users to search, filter, and apply for jobs with ease.",
+    subDescription: [
+      "Developed with Next.js for fast, scalable, and SEO-friendly performance.",
+      "Styled using TailwindCSS for a clean, responsive, and modern UI.",
+      "Data management powered by MongoDB for efficient storage and retrieval.",
+      "Advanced filtering system to refine job searches by title, keywords, and location.",
+      "Job application functionality that allows users to easily apply to postings.",
+      "User authentication and onboarding implemented with Clerk for secure access.",
+      "Separate flows for job seekers and employers, including job posting capabilities.",
+    ],
+    href: "https://ts-job-listings.onrender.com/",
+    logo: "",
+    image: "/assets/projects/job-listings.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Product Filter",
     description:
